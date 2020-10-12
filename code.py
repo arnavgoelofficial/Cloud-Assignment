@@ -1,5 +1,3 @@
 import calendar
-
-year = 2020
-mmonth = 8
-print(calendar.month(year, mmonth))
+htmlcal = calendar.HTMLCalendar(calendar.MONDAY)
+print(htmlcal.formatmonth(2020, 12))
