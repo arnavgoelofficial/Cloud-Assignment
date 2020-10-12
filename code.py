@@ -1,3 +1,3 @@
 import calendar
-htmlcal = calendar.HTMLCalendar(calendar.MONDAY)
-print(htmlcal.formatmonth(2020, 12))
+cal = calendar.HTMLCalendar(calendar.SUNDAY)
+print(cal.formatmonth(2020, 10))
